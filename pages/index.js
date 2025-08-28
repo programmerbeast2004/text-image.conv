@@ -182,19 +182,6 @@ const TextImageGenerator = () => {
                 </div>
               )}
             </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-600 mb-2">
-                Your Text
-              </label>
-              <textarea
-                value={text}
-                onChange={(e) => setText(e.target.value)}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                rows="3"
-                placeholder="Enter your text here..."
-              />
-            </div>
-            
             {/* Text Input */}
             <div>
               <label className="block text-sm font-medium text-gray-600 mb-2">
